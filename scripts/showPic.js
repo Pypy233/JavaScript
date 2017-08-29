@@ -1,7 +1,10 @@
 function showPic(whichpic){
-	var source = whichPic.getAttribute("href")
-	var drinks = document.getElementById("drinks")
-	drinks.setAttribute("src", source)
+	var source = whichpic.getAttribute("href");
+	var drinks = document.getElementById("drinks");
+	drinks.setAttribute("src", source);
+	var text = whichpic.getAttribute("title");
+	var description = document.getElementById("description");
+	description.firstChild.nodeValue = text;
 }
 function countBodyChildren(){
     var body_element = document.getElementsByTagName("body")[0];
