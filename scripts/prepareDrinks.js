@@ -5,8 +5,7 @@ function prepareDrinks(){
 	var links = drinks.getElementsByTagName("a");
 	for(var i = 0; i < links.length; i++){
 		links[i].onclick = function(){
-			showPic(this);
-			return false;
+			return !showPic(this);
 		}
 	}
 		
