@@ -1,0 +1,13 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Test</title>
+</head>
+<body>
+	<script src = "scripts/insertParagraph.js">
+	<script>
+		insertParagraph("This is inserted.");
+	</script>
+</body>
+</html>
