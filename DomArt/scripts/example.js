@@ -1,4 +1,4 @@
-window.onload = function(){
-	var testdiv = document.getElementById("testdiv");
-	alert(testdiv.innerHTML);
-}
+mode = "happy";
+age = 20;
+alert(mode);
+alert(age);
