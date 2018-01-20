@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Multiply Self</title>
+  </head>
+  <body>
+  <p>
+      JavaScript Function in itself.
+    </p id>
+      <p id = "demo"></p>
+    <script>
+      var change = new Function("a", "b", "return a * b");
+      document.getElementById("demo").innerHTML = change(2, 4);
+    </script>
+  </body>
+  </html>
