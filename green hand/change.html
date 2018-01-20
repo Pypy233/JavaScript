@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Show How To Change</title>
+</head>
+<body>
+<h1>This is my first paragraph</h1>
+<p id ="demo">
+  JavaScript can change the content of HTML.
+</p>
+<script>
+  function change(){
+    x=document.getElementById("demo");
+    x.innerHTML="Hello, JavaScript";
+  }
+</script>
+<button type="button" onclick="change()">Click me!</button>
+</body>
+</html>
